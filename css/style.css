@@ -1,0 +1,179 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'BRBA_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRBA_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+#header{width: 100%; height: 146px;}
+.headerinner{width: 1320px; margin: 0 auto; height: 100%;}
+.top{width: 100%; height: 88px; box-sizing: border-box;}
+
+
+.logo{float: left;}
+.logo{padding:13px 0 13px 50%; margin-left: -113px;}
+.logo img{display: block;}
+
+
+.link{float: right;}
+.link li{float: left; padding: 31px 0;}
+.link li a{display: block; padding-left: 15px; opacity: 0.5;}
+.link li a:hover{opacity: 1;}
+
+
+.navbox{width: 1320px; margin: 0 auto; height: 60px;}
+.nav{width: 100%;}
+.nav>li{float: left; width: 25%; text-align: center; position: relative; }
+.nav>li>a{display: block; font-family: 'GmarketSansMedium'; font-size: 17px;
+        color: #636363; padding: 17px 0; }
+.nav>li>a:hover{color: #ed8d85;}
+
+.nav>li:nth-child(3)>a{color: #ed8d85;}
+
+    
+.sub{width: 330px; position: absolute; z-index: 99; display: none;}
+.sub li{width: 100%; height: 45px; text-align: center;}
+.sub li a{display: block; color: #000;
+    font-family: 'Noto Sans KR'; font-weight: 500;
+    background-color: rgb(255, 255, 255,0.3); padding: 13px 0;
+    font-size: 13px;}
+.sub li a:hover{background-color: rgba(255,255,255,0.5); color: #ed8d85;}
+
+
+.nav li:hover .sub{display: block;}
+
+
+
+
+
+/* -----------헤더 끝------------------------- */
+
+
+
+
+
+
+
+
+#promotionbanner img{width: 100%; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#promotoncontents{width: 1320px; margin: 0 auto;}
+.contents{margin-top: 150px; text-align: center;}
+.contents a{display:inline-block; width: 160px; height: 50px; border: 2px solid #818181;
+            border-radius: 25px; text-align: center; box-sizing: border-box;
+            font-size:22px ; font-family: 'Noto Sans KR'; font-weight:500; padding: 4px 0;
+            color:#818181; margin-top: 15px;}
+
+            .contents a:hover{background-color: #818181; color: #ffffff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #footer{width: 100%; height: 300px; background-color: #eea9a3;
+                margin-top: 200px;}
+            .footerinner{width: 1320px; margin: 0 auto; padding-top: 50px;}
+            
+            .box1{width: 644px; height: 203px; 
+            float: left; border-right: 1px solid #ce766e;}
+            .ftlink{width: 100%; height:78px;}
+            .ftlink li{float: left; padding-right: 63px;}
+            .ftlink li a{display: block; color: #000;
+            font-family: 'Noto Sans KR'; font-size: 15px;
+            font-weight:700; padding: 28px 0;}
+            .box1 p{font-size: 13px; font-family: 'Noto Sans KR';
+                color: #000; padding-bottom: 17px; font-weight: 500;}
+            
+            
+            
+            .box2{width:434px; height: 203px; float: left; border-right: 1px solid #ce766e;}
+            .box2inner{width: 300px; height: 203px; margin: 0 auto;}
+            .box2inner h3{font-size: 15px; font-family: 'Noto Sans KR';
+            font-weight: 700; padding: 28px 0 12px; color: #000;}
+            .box2inner h1{font-size: 20px; font-family: 'Noto Sans KR';
+                    font-weight: 700; padding-bottom: 12px;}
+            .box2inner p{font-size: 13px; font-family: 'Noto Sans KR'; font-weight: 400;
+                    }
+            
+            
+            
+            
+            .box3{width: 235px; height: 203px; float: left;}
+            .fticon{float: right; padding-top:30px;}
+            .fticon img{display: block; padding-left: 15px; float: left;}
+                
+
+
+
+
